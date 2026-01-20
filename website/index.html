@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Password Manager - Free Offline Password Generator & Storage</title>
+    <meta name="description"
+        content="Free, open-source offline password manager with military-grade AES-256 encryption. Generate and store passwords securely on your computer. No cloud, no internet required.">
+    <meta name="keywords"
+        content="password manager, offline, free, open source, encryption, security, password generator">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .tagline {
+            font-size: 1.5em;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+
+        .download-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 50px;
+            font-size: 1.5em;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .version {
+            margin-top: 15px;
+            opacity: 0.8;
+            font-size: 0.9em;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .security-banner {
+            background: rgba(255, 87, 87, 0.2);
+            border: 2px solid #ff5757;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+        }
+
+        .security-banner h2 {
+            color: #ffcccb;
+            margin-bottom: 15px;
+        }
+
+        .security-banner ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .security-banner li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .security-banner li:before {
+            content: "⚠️";
+            position: absolute;
+            left: 0;
+        }
+
+        .tech-specs {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+        }
+
+        .tech-specs h2 {
+            margin-bottom: 20px;
+        }
+
+        .tech-specs ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .tech-specs li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .tech-specs li:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            opacity: 0.8;
+        }
+
+        .github-link {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            transition: border-color 0.3s;
+        }
+
+        .github-link:hover {
+            border-color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .tagline {
+                font-size: 1.2em;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🔐 Secure Password Manager</h1>
+            <p class="tagline">Free • Offline • Open Source • Zero-Knowledge Encryption</p>
+        </header>
+
+        <div class="download-section">
+            <h2>Download for Windows</h2>
+            <a href="PasswordManager.exe" class="download-btn" download>
+                ⬇️ Download Now (Free)
+            </a>
+            <p class="version">Version 1.0 • Windows 10/11 • 15.5 MB</p>
+            <p style="margin-top: 20px; font-size: 0.9em;">
+                No installation required • No Python needed • Completely standalone
+            </p>
+        </div>
+
+        <div class="download-section" style="background: rgba(255, 215, 0, 0.1); border-color: rgba(255, 215, 0, 0.3);">
+            <h2>💖 Support This Project</h2>
+            <p style="font-size: 1.1em; margin-bottom: 25px;">
+                This software is 100% free and open source.<br>
+                If you find it useful, consider buying me a coffee! ☕
+            </p>
+
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
+                <!-- GitHub Sponsors -->
+                <a href="https://github.com/sponsors/YOUR_USERNAME"
+                    style="display: inline-block; background: #ea4aaa; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    💝 GitHub Sponsors
+                </a>
+
+                <!-- Ko-fi -->
+                <a href="https://ko-fi.com/YOUR_USERNAME"
+                    style="display: inline-block; background: #ff5e5b; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    ☕ Buy Me a Coffee
+                </a>
+
+                <!-- PayPal -->
+                <a href="https://paypal.me/YOUR_USERNAME"
+                    style="display: inline-block; background: #00457C; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    💳 PayPal
+                </a>
+            </div>
+
+            <p style="font-size: 0.9em; opacity: 0.8; margin-top: 15px;">
+                Every donation helps maintain and improve this project! 🙏
+            </p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Military-Grade Encryption</h3>
+                <p>AES-256 encryption with PBKDF2 key derivation (480,000 iterations). Your passwords are truly secure.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌐</div>
+                <h3>100% Offline</h3>
+                <p>No internet connection required. No cloud storage. Your data never leaves your computer.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎲</div>
+                <h3>Cryptographic Password Generator</h3>
+                <p>Generate ultra-secure random passwords using cryptographically secure algorithms.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔓</div>
+                <h3>Zero-Knowledge Architecture</h3>
+                <p>Your Master Password is never stored. Even the developer can't access your data.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⏱️</div>
+                <h3>Auto-Lock & Clipboard Security</h3>
+                <p>Vault auto-locks after 5 minutes. Clipboard auto-clears after 30 seconds.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Modern Dark-Mode Interface</h3>
+                <p>Beautiful, intuitive GUI built with CustomTkinter. Easy to use, powerful features.</p>
+            </div>
+        </div>
+
+        <div class="security-banner">
+            <h2>⚠️ Important Security Information</h2>
+            <ul>
+                <li><strong>No Password Recovery:</strong> If you forget your Master Password, your data is permanently
+                    lost. There is no recovery mechanism.</li>
+                <li><strong>Backup Responsibility:</strong> You must back up your vault.db and salt.key files. Loss of
+                    either means data loss.</li>
+                <li><strong>System Security:</strong> This app doesn't protect against malware. Keep your system secure
+                    with antivirus software.</li>
+                <li><strong>Your Responsibility:</strong> You are 100% responsible for your data security and backups.
+                </li>
+            </ul>
+        </div>
+
+        <div class="tech-specs">
+            <h2>🔧 Technical Specifications</h2>
+            <ul>
+                <li><strong>Encryption:</strong> AES-256 via Fernet symmetric encryption</li>
+                <li><strong>Key Derivation:</strong> PBKDF2-HMAC-SHA256 with 480,000 iterations</li>
+                <li><strong>Password Hashing:</strong> Bcrypt with 12 rounds</li>
+                <li><strong>Random Generation:</strong> Python secrets module (cryptographically secure)</li>
+                <li><strong>Database:</strong> SQLite local storage (single file)</li>
+                <li><strong>License:</strong> MIT License (Free & Open Source)</li>
+                <li><strong>Platform:</strong> Windows 10/11 (64-bit)</li>
+                <li><strong>Requirements:</strong> None - standalone executable</li>
+            </ul>
+        </div>
+
+        <div class="download-section">
+            <h2>Quick Start Guide</h2>
+            <ol style="text-align: left; max-width: 600px; margin: 20px auto; line-height: 2;">
+                <li>Download PasswordManager.exe</li>
+                <li>Run the executable (no installation needed)</li>
+                <li>Create your Master Password (8+ characters, strong!)</li>
+                <li>Start adding credentials or generating passwords</li>
+                <li>Backup vault.db and salt.key to a USB drive</li>
+            </ol>
+        </div>
+
+        <footer>
+            <p>Made with ❤️ for privacy and security</p>
+            <p style="margin-top: 10px;">
+                <a href="LICENSE" class="github-link">View License</a> •
+                <a href="README.md" class="github-link">Documentation</a>
+            </p>
+            <p style="margin-top: 20px; font-size: 0.9em;">
+                © 2026 Secure Password Manager • Free & Open Source Software
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
