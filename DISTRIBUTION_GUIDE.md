@@ -58,7 +58,7 @@ git add PasswordManager.exe README.md LICENSE website/
 # Commit and push
 git commit -m "Initial release v1.0"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/secure-password-manager.git
+git remote add origin https://github.com/Drift-Sphere/secure-password-manager.git
 git push -u origin main
 ```
 
@@ -95,9 +95,9 @@ git push -u origin main
 3. Source: "Deploy from a branch"
 4. Branch: `main` → `/website` folder
 5. Click "Save"
-6. Your website will be live at: `https://YOUR_USERNAME.github.io/secure-password-manager/`
+6. Your website will be live at: `https://Drift-Sphere.github.io/secure-password-manager/`
 
-**Download link:** `https://github.com/YOUR_USERNAME/secure-password-manager/releases/download/v1.0.0/PasswordManager.exe`
+**Download link:** `https://github.com/Drift-Sphere/secure-password-manager/releases/download/v1.0.0/PasswordManager.exe`
 
 ---
 

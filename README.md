@@ -1,15 +1,15 @@
 # 🔐 Secure Offline Password Manager
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/YOUR_USERNAME)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-ff5e5b?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/YOUR_USERNAME)
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal)](https://paypal.me/YOUR_USERNAME)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/Drift-Sphere)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-ff5e5b?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/Drift-Sphere)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal)](https://paypal.me/Drift-Sphere)
 
 **The most secure password is the one that never leaves your machine.** This is a zero-knowledge, offline-first password manager built with Python. No internet, no cloud, no trackers. Your security is 100% in your hands.
 
 ---
 
-> 💖 **This software is 100% free.** If you find it useful, consider [supporting development](https://ko-fi.com/YOUR_USERNAME)!
+> 💖 **This software is 100% free.** If you find it useful, consider [supporting development](https://ko-fi.com/Drift-Sphere)!
 
 ## ✨ Features
 
@@ -27,7 +27,7 @@
 
 ### Method 1: Use the Standalone App (Recommended)
 This is the easiest way. No Python installation required!
-1. Go to the [Releases](https://github.com/YOUR_USERNAME/secure-password-manager/releases) page.
+1. Go to the [Releases](https://github.com/Drift-Sphere/secure-password-manager/releases) page.
 2. Download `PasswordManager.exe`.
 3. Run the executable and follow the setup instructions.
 

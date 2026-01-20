@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secure Password Manager - Free Offline Password Generator & Storage</title>
-    <meta name="description" content="Free, open-source offline password manager with military-grade AES-256 encryption. Generate and store passwords securely on your computer. No cloud, no internet required.">
-    <meta name="keywords" content="password manager, offline, free, open source, encryption, security, password generator">
+    <meta name="description"
+        content="Free, open-source offline password manager with military-grade AES-256 encryption. Generate and store passwords securely on your computer. No cloud, no internet required.">
+    <meta name="keywords"
+        content="password manager, offline, free, open source, encryption, security, password generator">
     <style>
         * {
             margin: 0;
@@ -34,7 +37,7 @@
         h1 {
             font-size: 3.5em;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         .tagline {
@@ -62,14 +65,14 @@
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s, box-shadow 0.3s;
-            border: 2px solid rgba(255,255,255,0.3);
+            border: 2px solid rgba(255, 255, 255, 0.3);
         }
 
         .download-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
         }
 
         .version {
@@ -156,7 +159,7 @@
 
         .tech-specs li {
             padding: 10px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .tech-specs li:last-child {
@@ -173,7 +176,7 @@
             color: #fff;
             text-decoration: none;
             font-weight: bold;
-            border-bottom: 2px solid rgba(255,255,255,0.3);
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
             transition: border-color 0.3s;
         }
 
@@ -196,6 +199,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -214,11 +218,47 @@
             </p>
         </div>
 
+        <div class="download-section" style="background: rgba(255, 215, 0, 0.1); border-color: rgba(255, 215, 0, 0.3);">
+            <h2>💖 Support This Project</h2>
+            <p style="font-size: 1.1em; margin-bottom: 25px;">
+                This software is 100% free and open source.<br>
+                If you find it useful, consider buying me a coffee! ☕
+            </p>
+
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
+                <!-- GitHub Sponsors -->
+                <a href="https://github.com/sponsors/Drift-Sphere"
+                    style="display: inline-block; background: #ea4aaa; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    💝 GitHub Sponsors
+                </a>
+
+                <!-- Ko-fi -->
+                <a href="https://ko-fi.com/Drift-Sphere"
+                    style="display: inline-block; background: #ff5e5b; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    ☕ Buy Me a Coffee
+                </a>
+
+                <!-- PayPal -->
+                <a href="https://paypal.me/Drift-Sphere"
+                    style="display: inline-block; background: #00457C; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    💳 PayPal
+                </a>
+            </div>
+
+            <p style="font-size: 0.9em; opacity: 0.8; margin-top: 15px;">
+                Every donation helps maintain and improve this project! 🙏
+            </p>
+        </div>
+
         <div class="features">
             <div class="feature-card">
                 <div class="feature-icon">🔒</div>
                 <h3>Military-Grade Encryption</h3>
-                <p>AES-256 encryption with PBKDF2 key derivation (480,000 iterations). Your passwords are truly secure.</p>
+                <p>AES-256 encryption with PBKDF2 key derivation (480,000 iterations). Your passwords are truly secure.
+                </p>
             </div>
 
             <div class="feature-card">
@@ -255,10 +295,14 @@
         <div class="security-banner">
             <h2>⚠️ Important Security Information</h2>
             <ul>
-                <li><strong>No Password Recovery:</strong> If you forget your Master Password, your data is permanently lost. There is no recovery mechanism.</li>
-                <li><strong>Backup Responsibility:</strong> You must back up your vault.db and salt.key files. Loss of either means data loss.</li>
-                <li><strong>System Security:</strong> This app doesn't protect against malware. Keep your system secure with antivirus software.</li>
-                <li><strong>Your Responsibility:</strong> You are 100% responsible for your data security and backups.</li>
+                <li><strong>No Password Recovery:</strong> If you forget your Master Password, your data is permanently
+                    lost. There is no recovery mechanism.</li>
+                <li><strong>Backup Responsibility:</strong> You must back up your vault.db and salt.key files. Loss of
+                    either means data loss.</li>
+                <li><strong>System Security:</strong> This app doesn't protect against malware. Keep your system secure
+                    with antivirus software.</li>
+                <li><strong>Your Responsibility:</strong> You are 100% responsible for your data security and backups.
+                </li>
             </ul>
         </div>
 
@@ -299,4 +343,5 @@
         </footer>
     </div>
 </body>
+
 </html>

@@ -41,7 +41,7 @@ This guide helps you add donation options to your password manager project.
 
 3. **Enable on Your Repo:**
    - Create `.github/FUNDING.yml` in your repository
-   - Add: `github: YOUR_USERNAME`
+   - Add: `github: Drift-Sphere`
    - Commit and push
    - "Sponsor" button appears on your repo!
 
@@ -68,12 +68,12 @@ This guide helps you add donation options to your password manager project.
    - Set default donation amount ($3-5 recommended)
 
 3. **Add to Your Project:**
-   - Copy your Ko-fi link: `https://ko-fi.com/YOUR_USERNAME`
+   - Copy your Ko-fi link: `https://ko-fi.com/Drift-Sphere`
    - Add badge to README
    - Add button to website
    - Add to `.github/FUNDING.yml`:
      ```yaml
-     ko_fi: YOUR_USERNAME
+     ko_fi: Drift-Sphere
      ```
 
 ---
